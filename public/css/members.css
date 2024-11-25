@@ -1,0 +1,92 @@
+.members-container {
+    display: flex;
+    flex-flow: column;
+    width: 37%;
+    margin: 3em 0em;
+  }
+  
+  .members-container > p {
+    font-size: 2em;
+    margin-bottom: 8px;
+  }
+  
+  .members-container > hr {
+    border: 1px solid rgb(237, 237, 237);
+  }
+  
+  .members {
+    display: flex;
+    flex-flow: column;
+  }
+  
+  .member {
+    display: flex;
+    flex-flow: row;
+    margin: 0.9em 0.5em;
+    gap: 1em;
+  }
+  
+  .member-img {
+    display: flex;
+    flex-direction: column;
+    font-size: 0.9em;
+    align-items: center;
+    gap: 3px;
+  }
+  
+  .member-img p {
+    font-size: 0.8em;
+  }
+  
+  .member-img-container {
+    border: 1px double rgb(186, 186, 186);
+    padding: 3px;
+  }
+  
+  .member-img-container img {
+    height: 100px;
+    width: 100px;
+  }
+  
+  .member-actions {
+    display: flex;
+    height: fit-content;
+    width: 100%;
+    justify-content: space-between;
+    padding-top: 1em;
+  }
+  
+  .member-actions img {
+    width: 12px;
+    color: white;
+    height: 12px;
+    margin-right: 4px;
+  }
+  
+  .member-actions button {
+    padding: 0.3em 1.2em;
+  
+    font-size: 0.8em;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .add-friend {
+    background-color: rgb(59, 184, 80);
+    color: white;
+    border: 1px solid rgb(59, 184, 80);
+  }
+  
+  .send-message {
+    color: black;
+    background-color: white;
+    border: 1px solid rgb(186, 186, 186);
+  }
+  
+  .view-profile {
+    color: white;
+    background-color: rgb(77, 107, 188);
+    border: 1px solid rgb(77, 107, 188);
+  }  

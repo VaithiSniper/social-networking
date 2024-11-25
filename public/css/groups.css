@@ -1,0 +1,58 @@
+.main-groups-container {
+    display: flex;
+    flex-flow: column;
+    width: 37%;
+    margin: 3em 0em;
+  }
+  
+  .main-groups-container > p {
+    font-size: 2em;
+    margin-bottom: 8px;
+  }
+  
+  .main-groups-container hr {
+    border: 1px solid rgb(226, 226, 226);
+    margin-bottom: 0.5em;
+  }
+  
+  .main-groups {
+    display: flex;
+    flex-flow: column;
+  }
+  
+  .main-group {
+    border: 1px solid rgb(186, 186, 186);
+    padding: 0.3em 0.2em;
+    margin: 0.5em 0;
+  }
+  
+  .main-group img {
+    float: left;
+    width: 55px;
+    height: 65px;
+    margin: 0.5em;
+  }
+  
+  .main-group p {
+    font-size: 0.8em;
+  }
+  
+  .main-group h3 {
+    color: rgb(77, 107, 188);
+    font-weight: 100;
+  }
+  
+  .main-group-content {
+    display: flex;
+    flex-flow: column;
+    gap: 0.5em;
+    padding: 0.2em 0em 0.5em;
+  }
+  
+  .main-group button {
+    background-color: white;
+    padding: 0.5em 0.8em;
+    border: 1px solid rgb(186, 186, 186);
+    width: fit-content;
+  }
+  

@@ -1,0 +1,187 @@
+
+
+*,
+*::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: inherit;
+  vertical-align: baseline;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@media screen and (min-width: 600px) {
+  .upper-primary-nav {
+    background: linear-gradient(to bottom, rgb(46, 66, 123), rgb(12, 31, 82));
+    background-color: rgb(46, 66, 123);
+    width: 100%;
+    color: white;
+    font-size: 0.8em;
+    display: flex;
+    justify-content: center;
+    flex-flow: row;
+    gap: 3em;
+  }
+
+  .logo {
+    display: flex;
+    margin-top: 0.3em;
+    margin-bottom: 1.2em;
+  }
+
+  .logo span {
+    display: block;
+    margin-left: 0.5em;
+  }
+
+  .upper-primary-nav form {
+    margin-left: 4em;
+    display: flex;
+    flex-flow: column;
+    margin-bottom: 1em;
+    margin-top: 0.2em;
+  }
+
+  .credentials {
+    display: flex;
+    height: 2em;
+    flex-flow: row;
+    gap: 0.2em;
+  }
+
+  .credentials input {
+    width: 36%;
+    font-size: 0.9em;
+  }
+
+  .credentials button {
+    font-size: 0.8em;
+    padding: 0em 0.4em;
+  }
+
+  .remember-me {
+    display: flex;
+  }
+
+  .upper-secondary-nav {
+    background-color: rgb(243, 243, 243);
+    width: 100%;
+    font-size: 0.8em;
+    height: 2%;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    padding-right: 26%;
+  }
+
+  .upper-secondary-nav a {
+    color: black;
+    text-decoration: none;
+    padding: 0.8em 1em;
+  }
+
+  .main-body {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+  }
+
+  .active {
+    background-color: rgb(201, 201, 201);
+    border: 1px solid rgb(201, 201, 201);
+  }
+
+  .aside {
+    width: 18%;
+    height: fit-content;
+    margin: 2em;
+    display: flex;
+    flex-flow: column;
+    gap: 20px;
+  }
+.my-friends {
+    border: 1px solid rgb(186, 186, 186);
+    border-radius: 3px;
+  }
+
+  .top-bar {
+    background: linear-gradient(to bottom, rgb(46, 66, 123), rgb(12, 31, 82));
+    color: white;
+    font-size: 0.8em;
+    padding: 0.4em;
+  }
+  .friend-grid {
+    display: grid;
+    padding: 1em 2em;
+    grid-template-columns: repeat(3, 0.4fr);
+    gap: 0.8em 0px;
+    width: 90%;
+    margin: auto auto;
+    justify-items: center;
+  }
+
+  .friend-grid img {
+    border: 1px solid rgb(186, 186, 186);
+    width: 80%;
+    height: fit-content;
+  }
+
+  .my-friends button {
+    background-color: rgb(77, 107, 188);
+    color: white;
+    border: 1px solid rgb(77, 107, 188);
+    padding: 0.4em 0.6em;
+    margin-bottom: 0.8em;
+    margin-left: 0.8em;
+    font-size: 0.8em;
+    border-radius: 3px;
+  }
+
+  .latest-groups {
+    border: 1px solid rgb(186, 186, 186);
+    margin: auto 0;
+    border-radius: 3px;
+  }
+
+  .latest-groups button {
+    background-color: rgb(77, 107, 188);
+    color: white;
+    border: 1px solid rgb(77, 107, 188);
+    padding: 0.4em 0.6em;
+    margin-bottom: 0.8em;
+    font-size: 0.8em;
+    margin-left: 0.8em;
+    border-radius: 3px;
+  }
+
+  .group {
+    border: 1px solid rgb(186, 186, 186);
+    padding: 0.5em 0.2em;
+    margin: 0.7em;
+  }
+
+  .group img {
+    float: left;
+    margin: 0.5em;
+  }
+  .group div {
+    font-size: 0.8em;
+  }
+
+  .group p {
+    font-size: 0.8em;
+  }
+
+  .group h3 {
+    color: rgb(77, 107, 188);
+    font-weight: 100;
+  }
+
+  footer {
+    color: rgb(46, 66, 123);
+    text-align: center;
+    padding: 2em;
+    border-top: 3px solid rgb(46, 66, 123);
+  }
+}
